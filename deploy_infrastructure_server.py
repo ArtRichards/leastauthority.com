@@ -10,7 +10,6 @@
 """
 
 import sys, os, argparse
-from lae_automation.config import Config
 from twisted.python.filepath import FilePath
 from lae_automation.initialize import deploy_infrastructure_EC2
 from lae_automation.signup import EC2_ENDPOINT
